@@ -56,7 +56,7 @@ public class RestaurantRepositoryTest {
     public void deleteRestaurantShouldRemoveData(){
         Restaurant restaurant = new Restaurant("V8");
         this.restauranteRepository.save(restaurant);
-        restauranteRepository.deleteById(restaurant.getId());
+        restauranteRepository.delete(restaurant);
         assertThat(restauranteRepository.findById(restaurant.getId())).isEmpty();
     }
 

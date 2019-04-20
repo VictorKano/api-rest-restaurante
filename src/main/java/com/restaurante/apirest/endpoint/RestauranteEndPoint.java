@@ -45,11 +45,10 @@ public class RestauranteEndPoint {
         return new ResponseEntity<>(restauranteRepository.save(restaurant), HttpStatus.OK);
     }
 
-    @DeleteMapping("/{id}")
-    @ApiOperation(value = "Deleta um Restaurante do BD através do id.")
-    public ResponseEntity<?> delete(@PathVariable Long id){
-        verifyIfRestauranteExists(id);
-        restauranteRepository.deleteById(id);
+    @DeleteMapping
+    @ApiOperation(value = "Deleta um Restaurante do BD.")
+    public ResponseEntity<?> delete(@RequestBody Restaurant restaurant){
+        restauranteRepository.delete(restaurant);
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
