@@ -26,7 +26,7 @@ git clone https://github.com/VictorKano/api-rest-restaurante.git
   java -jar target/apirest-0.0.1-SNAPSHOT.jar
   ```
 
-O app irá rodar em: http://localhost:8080
+Irá rodar em: http://localhost:8080
 
 ## Explorar APIs REST
 
