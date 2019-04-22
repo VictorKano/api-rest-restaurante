@@ -23,7 +23,7 @@ git clone https://github.com/VictorKano/api-rest-restaurante.git
 
   ```
   mvnw package
-  javar -jar target/apirest-0.0.1-SNAPSHOT.jar
+  java -jar target/apirest-0.0.1-SNAPSHOT.jar
   ```
 
 O app irá rodar em: http://localhost:8080
