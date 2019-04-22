@@ -2,7 +2,7 @@
 
 Api Rest para o cadastro e manutenção de restaurantes com Spring Boot 2.1.4, Maven 3.6.0, JPA, H2 Database.
 
-Documentação com Javadoc, disponível em:
+Documentação dos métodos com Javadoc, disponível em:
 https://github.com/VictorKano/javadoc-api-rest-restaurante
 
 Documentação interativa da API com Swagger UI disponível em:
